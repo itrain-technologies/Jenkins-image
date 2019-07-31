@@ -10,9 +10,9 @@ WORKDIR /jenkins
 ADD . /jenkins
 
 # setting the permuissions
-RUN chmod +x ./install-jenkins.sh
+RUN chmod +x ./install_jenkins.sh
 
 EXPOSE 8080
 
 # container is started from your image
-ENTRYPOINT ["./install-jenkins.sh"]
+ENTRYPOINT ["./install_jenkins.sh"]
