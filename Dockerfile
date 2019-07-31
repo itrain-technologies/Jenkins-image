@@ -5,7 +5,7 @@ FROM ubuntu 18.10
 WORKDIR /jenkins
 
 # Copy the current directory contents into the container
-ADD ./jenkins
+ADD . /jenkins
 
 # setting the permuissions
 RUN chmod +x ./install-jenkins.sh
