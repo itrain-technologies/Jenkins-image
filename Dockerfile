@@ -1,5 +1,5 @@
 # Use an official ubuntu image 18.10
-FROM ubuntu 18.10
+FROM ubuntu:18.10
 
 # set workdir
 WORKDIR /jenkins
