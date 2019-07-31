@@ -15,4 +15,4 @@ RUN chmod +x ./install-jenkins.sh
 EXPOSE 8080
 
 # container is started from your image
-ENTRYPOINT ["install-jenkins.sh"]
+ENTRYPOINT ["./install-jenkins.sh"]
